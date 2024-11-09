@@ -1,1 +1,2 @@
-{"entity": "atto", "organization": "atto", "label": "Atto", "description": "The Atto issuer.", "website": "https://atto.cash"}
+{"entity": "atto", "organization": "atto", "label": "Atto", "description": "The Atto issuer.", "tags": [], "website": "https://atto.cash"}
+{"entity": "good-exchange", "organization": "good-exchange", "label": "Good Exchange", "description": "Very good exchange", "tags": ["EXCHANGE"], "website": "https://good.exchange"}
