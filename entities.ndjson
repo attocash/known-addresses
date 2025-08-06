@@ -1,2 +1,2 @@
-{"entity": "atto", "organization": "atto", "label": "Atto", "description": "The Atto issuer.", "tags": [], "website": "https://atto.cash"}
-{"entity": "good-exchange", "organization": "good-exchange", "label": "Good Exchange", "description": "Very good exchange", "tags": ["EXCHANGE"], "website": "https://good.exchange"}
+{"entity": "atto", "organization": "atto", "label": "Atto", "description": "Atto Issuer", "tags": [], "website": "https://atto.cash"}
+{"entity": "lcx", "organization": "lcx", "label": "LCX", "description": "LCX Exchange", "tags": ["EXCHANGE"], "website": "https://www.lcx.com"}
