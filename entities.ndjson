@@ -1,3 +1,4 @@
 {"entity": "atto", "organization": "atto", "label": "Atto", "description": "Atto Issuer", "tags": [], "website": "https://atto.cash"}
 {"entity": "lcx", "organization": "lcx", "label": "LCX", "description": "LCX Exchange", "tags": ["EXCHANGE"], "website": "https://www.lcx.com"}
 {"entity": "xt", "organization": "xt", "label": "XT", "description": "XT Exchange", "tags": ["EXCHANGE"], "website": "https://www.xt.com"}
+{"entity": "cryptojar", "organization": "cryptojar", "label": "CryptoJar", "description": "CryptoJar Tip Bot", "tags": ["SERVICE"], "website": "https://cryptojar.cc"}
