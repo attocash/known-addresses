@@ -1,19 +1,19 @@
-{"address": "atto://adcvvasbd2duys5y4ekgrd3gw2og3vvhrnvrvwoki2yko6xmc3ere2apkx7wo", "label": "Atto Genesis", "entity": "atto", "tags": [], "addedAt": "22025-08-06", "description": "The Atto Genesis"}
-{"address": "atto://adkq2jzidx4t44pg46rht7bqrvpjbci4e6qrfhgqx4sl7fdtd5kh6dip3b3gs", "label": "Atto Treasury 1", "entity": "atto", "tags": [], "addedAt": "22025-08-06", "description": "Atto Treasury 1"}
-{"address": "atto://adv4sbwmi47442s3yhsymiww3ad4ws6iecwbgfu5rd4w5ytnfg4yeguumywqw", "label": "Atto Treasury 2", "entity": "atto", "tags": [], "addedAt": "22025-08-06", "description": "Atto Treasury 2"}
-{"address": "atto://adtyo6wepndvtcptyjdyhywvyd74jfb5dugerqblufjdawynil7vwfmmbn45k", "label": "Atto Treasury 3", "entity": "atto", "tags": [], "addedAt": "22025-08-06", "description": "Atto Treasury 3"}
-{"address": "atto://adqaxis7pdonb4rjvezvaybfntxreye5cyo26l6wctodfq34zxcwu3rtvdhn2", "label": "Atto Treasury 4", "entity": "atto", "tags": [], "addedAt": "22025-08-06", "description": "Atto Treasury 4"}
-{"address": "atto://actt6c2vuugtxoe65ll3i4af7veizqxvidzuf6etw4w5gvzabncde5agckdqm", "label": "Atto Treasury 5", "entity": "atto", "tags": [], "addedAt": "22025-08-06", "description": "Atto Treasury 5"}
-{"address": "atto://abo7qajakaxs5ld4x4npcjkvwwuctefgm5c77ckxhvqjh5jvvqs6rsu22pk76", "label": "Atto Treasury 6", "entity": "atto", "tags": [], "addedAt": "22025-08-06", "description": "Atto Treasury 6"}
-{"address": "atto://abwjus3exo3o2undaxirqxmdfcfgen4nxz3b5ezohdafyf3chv2lcpl6ggef2", "label": "Atto Treasury 7", "entity": "atto", "tags": [], "addedAt": "22025-08-06", "description": "Atto Treasury 7"}
-{"address": "atto://aaoxssge2re2zakr26cv6rbhmmeotdejtrxqm3vzgjg77kqvsamstcxi3tla4", "label": "Atto Treasury 8", "entity": "atto", "tags": [], "addedAt": "22025-08-06", "description": "Atto Treasury 8"}
-{"address": "atto://accthah7b6ifwoab6ors7imteubzlnf5bstnqptw52ttrhwj2s5badtu4gmf6", "label": "Atto Treasury 9", "entity": "atto", "tags": [], "addedAt": "22025-08-06", "description": "Atto Treasury 9"}
-{"address": "atto://abmnfeydp7p6mmmkzfzbly7iuibmwj3dpilyghf7wgleurjugq6eqlemopaq6", "label": "Atto Treasury 10", "entity": "atto", "tags": [], "addedAt": "22025-08-06", "description": "Atto Treasury 10"}
-{"address": "atto://abc6wzjeapfgddc7dt7zfmv3d5gh3bvzapuia4qzg7yh5kpa4vsi7ljawklfe", "label": "Atto Treasury 11", "entity": "atto", "tags": [], "addedAt": "22025-08-06", "description": "Atto Treasury 11"}
-{"address": "atto://aaewkizilyp6k5k5vk5zj3flcjgq4ok6duxgcpux2efke4l3qksm47mjnyqxk", "label": "Atto Treasury 12", "entity": "atto", "tags": [], "addedAt": "22025-08-06", "description": "Atto Treasury 12"}
-{"address": "atto://adwmbykpqs3mgbqogizzwm6arokkcmuxium7rbh343drwd2q5om6vj3jrfiyk", "label": "Atto Faucet", "entity": "atto", "tags": [], "addedAt": "22025-08-06", "description": "Faucet"}
-{"address": "atto://abgz7fjquhyi3xflfxvwmyc4w5pplgp3crjeupkyegewmzc6vah5eogxewdc2", "label": "Atto Miner", "entity": "atto", "tags": [], "addedAt": "22025-08-06", "description": "Folding@home Miner"}
-{"address": "atto://abzekkyvhsos74rfeibubjifbjdzy3bi7habx5o3kt4ot2vcl5uhb2rcrn7hu", "label": "Atto Reward Bot", "entity": "atto", "tags": [], "addedAt": "22025-08-06", "description": "Github Reward Bot"}
-{"address": "atto://acfu5fpqtxvbu3zvyimddudpgyhsbd2bzoigvj6zlsmcu2w7zug4zmtb6v2rw", "label": "LCX Hot Wallet", "entity": "lcx", "tags": ["EXCHANGE"], ",addedAt": "22025-08-06", "description": "LCX Hot Wallet"}
-{"address": "atto://ad7ptdb7tpkvyuoib5cjwjf5fjm6z4iodqvrcx4iejd5aeh6ozroq3vge3ada", "label": "XT Hot Wallet", "entity": "xt", "tags": ["EXCHANGE"], ",addedAt": "22025-08-20", "description": "XT Hot Wallet"}
-{"address": "atto://aaknct6jr7vwdsnijynqgdv7iilnkg3awl5bz7donacx3oijtmg56bprkitzk", "label": "CryptoJar Hot Wallet", "entity": "xt", "tags": ["SERVICE"], ",addedAt": "22025-09-15", "description": "CryptoJar Hot Wallet"}
+{"address": "atto://adcvvasbd2duys5y4ekgrd3gw2og3vvhrnvrvwoki2yko6xmc3ere2apkx7wo", "label": "Atto Genesis", "entity": "atto", "tags": [], "addedAt": "2025-08-06", "description": "The Atto Genesis"}
+{"address": "atto://adkq2jzidx4t44pg46rht7bqrvpjbci4e6qrfhgqx4sl7fdtd5kh6dip3b3gs", "label": "Atto Treasury 1", "entity": "atto", "tags": [], "addedAt": "2025-08-06", "description": "Atto Treasury 1"}
+{"address": "atto://adv4sbwmi47442s3yhsymiww3ad4ws6iecwbgfu5rd4w5ytnfg4yeguumywqw", "label": "Atto Treasury 2", "entity": "atto", "tags": [], "addedAt": "2025-08-06", "description": "Atto Treasury 2"}
+{"address": "atto://adtyo6wepndvtcptyjdyhywvyd74jfb5dugerqblufjdawynil7vwfmmbn45k", "label": "Atto Treasury 3", "entity": "atto", "tags": [], "addedAt": "2025-08-06", "description": "Atto Treasury 3"}
+{"address": "atto://adqaxis7pdonb4rjvezvaybfntxreye5cyo26l6wctodfq34zxcwu3rtvdhn2", "label": "Atto Treasury 4", "entity": "atto", "tags": [], "addedAt": "2025-08-06", "description": "Atto Treasury 4"}
+{"address": "atto://actt6c2vuugtxoe65ll3i4af7veizqxvidzuf6etw4w5gvzabncde5agckdqm", "label": "Atto Treasury 5", "entity": "atto", "tags": [], "addedAt": "2025-08-06", "description": "Atto Treasury 5"}
+{"address": "atto://abo7qajakaxs5ld4x4npcjkvwwuctefgm5c77ckxhvqjh5jvvqs6rsu22pk76", "label": "Atto Treasury 6", "entity": "atto", "tags": [], "addedAt": "2025-08-06", "description": "Atto Treasury 6"}
+{"address": "atto://abwjus3exo3o2undaxirqxmdfcfgen4nxz3b5ezohdafyf3chv2lcpl6ggef2", "label": "Atto Treasury 7", "entity": "atto", "tags": [], "addedAt": "2025-08-06", "description": "Atto Treasury 7"}
+{"address": "atto://aaoxssge2re2zakr26cv6rbhmmeotdejtrxqm3vzgjg77kqvsamstcxi3tla4", "label": "Atto Treasury 8", "entity": "atto", "tags": [], "addedAt": "2025-08-06", "description": "Atto Treasury 8"}
+{"address": "atto://accthah7b6ifwoab6ors7imteubzlnf5bstnqptw52ttrhwj2s5badtu4gmf6", "label": "Atto Treasury 9", "entity": "atto", "tags": [], "addedAt": "2025-08-06", "description": "Atto Treasury 9"}
+{"address": "atto://abmnfeydp7p6mmmkzfzbly7iuibmwj3dpilyghf7wgleurjugq6eqlemopaq6", "label": "Atto Treasury 10", "entity": "atto", "tags": [], "addedAt": "2025-08-06", "description": "Atto Treasury 10"}
+{"address": "atto://abc6wzjeapfgddc7dt7zfmv3d5gh3bvzapuia4qzg7yh5kpa4vsi7ljawklfe", "label": "Atto Treasury 11", "entity": "atto", "tags": [], "addedAt": "2025-08-06", "description": "Atto Treasury 11"}
+{"address": "atto://aaewkizilyp6k5k5vk5zj3flcjgq4ok6duxgcpux2efke4l3qksm47mjnyqxk", "label": "Atto Treasury 12", "entity": "atto", "tags": [], "addedAt": "2025-08-06", "description": "Atto Treasury 12"}
+{"address": "atto://adwmbykpqs3mgbqogizzwm6arokkcmuxium7rbh343drwd2q5om6vj3jrfiyk", "label": "Atto Faucet", "entity": "atto", "tags": [], "addedAt": "2025-08-06", "description": "Faucet"}
+{"address": "atto://abgz7fjquhyi3xflfxvwmyc4w5pplgp3crjeupkyegewmzc6vah5eogxewdc2", "label": "Atto Miner", "entity": "atto", "tags": [], "addedAt": "2025-08-06", "description": "Folding@home Miner"}
+{"address": "atto://abzekkyvhsos74rfeibubjifbjdzy3bi7habx5o3kt4ot2vcl5uhb2rcrn7hu", "label": "Atto Reward Bot", "entity": "atto", "tags": [], "addedAt": "2025-08-06", "description": "Github Reward Bot"}
+{"address": "atto://acfu5fpqtxvbu3zvyimddudpgyhsbd2bzoigvj6zlsmcu2w7zug4zmtb6v2rw", "label": "LCX Hot Wallet", "entity": "lcx", "tags": ["EXCHANGE"], "addedAt": "2025-08-06", "description": "LCX Hot Wallet"}
+{"address": "atto://ad7ptdb7tpkvyuoib5cjwjf5fjm6z4iodqvrcx4iejd5aeh6ozroq3vge3ada", "label": "XT Hot Wallet", "entity": "xt", "tags": ["EXCHANGE"], "addedAt": "2025-08-20", "description": "XT Hot Wallet"}
+{"address": "atto://aaknct6jr7vwdsnijynqgdv7iilnkg3awl5bz7donacx3oijtmg56bprkitzk", "label": "CryptoJar Hot Wallet", "entity": "xt", "tags": ["SERVICE"], "addedAt": "2025-09-15", "description": "CryptoJar Hot Wallet"}

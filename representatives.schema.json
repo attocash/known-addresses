@@ -1,0 +1,98 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://atto.cash/schemas/representative.json",
+  "title": "Atto Representative",
+  "description": "Schema for an Atto representative",
+  "type": "object",
+  "additionalProperties": false,
+
+  "required": [
+    "address",
+    "label",
+    "entity",
+    "payToAddress",
+    "sharePercentage",
+    "addedAt",
+    "updatedAt",
+    "description"
+  ],
+
+  "properties": {
+    "address": {
+      "type": "string",
+      "description": "Representative voting address (Atto URI).",
+      "pattern": "^atto://[a-z0-9]+$"
+    },
+
+    "label": {
+      "type": "string",
+      "description": "Short human-friendly name.",
+      "minLength": 1,
+      "maxLength": 120
+    },
+
+    "entity": {
+      "type": "string",
+      "description": "Entity identifier this address belongs to (must match an entity from entities.ndjson).",
+      "minLength": 1,
+      "maxLength": 120
+    },
+
+    "payToAddress": {
+      "description": "If null, this representative does NOT participate in staking rewards. Must never be the same as 'address'.",
+      "type": ["string", "null"],
+      "pattern": "^atto://[a-z0-9]+$",
+      "not": {
+        "description": "Disallow using the representative voting address as the payout address.",
+        "const": { "$data": "/address" }
+      }
+    },
+
+    "sharePercentage": {
+      "type": "integer",
+      "description": "Percentage of rewards this representative shares with others.",
+      "minimum": 0,
+      "maximum": 100
+    },
+
+    "addedAt": {
+      "type": "string",
+      "description": "Date the entry was created (UTC).",
+      "format": "date"
+    },
+
+    "updatedAt": {
+      "type": "string",
+      "description": "Date the entry was last updated (UTC).",
+      "format": "date"
+    },
+
+    "description": {
+      "type": "string",
+      "description": "Longer description of the representative.",
+      "minLength": 1,
+      "maxLength": 300
+    }
+  },
+
+  "anyOf": [
+    {
+      "description": "Case 1: Not participating in staking → payToAddress is null and sharePercentage must be 0.",
+      "properties": {
+        "payToAddress": { "type": "null" },
+        "sharePercentage": { "const": 0 }
+      }
+    },
+    {
+      "description": "Case 2: Participating in staking → payToAddress is an address and sharePercentage is 0–100.",
+      "properties": {
+        "payToAddress": { "type": "string" },
+        "sharePercentage": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+name: Validate NDJSON files
+
+on:
+  pull_request:
+
+  push:
+    branches:
+      - main
+
+jobs:
+  validate:
+    name: Validate NDJSON files against their schemas
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install ajv-cli and formats plugin
+        run: |
+          npm i -g ajv-cli ajv-formats
+
+      - name: Validate all NDJSON files against matching schemas
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          # Find all .ndjson files in the repo
+          mapfile -t ndjson_files < <(find . -type f -name "*.ndjson" | sort)
+
+          if [ ${#ndjson_files[@]} -eq 0 ]; then
+            echo "No NDJSON files found; skipping."
+            exit 0
+          fi
+
+          # Validate each NDJSON file against its corresponding schema file
+          for nd in "${ndjson_files[@]}"; do
+            base_without_ext="${nd%.*}"
+            schema_file="${base_without_ext}.schema.json"
+
+            echo "Validating $nd against $schema_file"
+
+            if [ ! -f "$schema_file" ]; then
+              echo "ERROR: Expected schema file '$schema_file' for '$nd' but it was not found." >&2
+              exit 1
+            fi
+
+            i=0
+            while IFS= read -r line || [ -n "$line" ]; do
+              i=$((i+1))
+              # Skip completely empty lines
+              if [ -z "$line" ]; then
+                continue
+              fi
+
+              printf '%s\n' "$line" > .tmp_line.json
+
+              # Use JSON Schema draft 2020-12 and ajv-formats for validations like 'date', 'uri', etc.
+              if ! ajv validate --spec=draft2020 -c ajv-formats --data -s "$schema_file" -d .tmp_line.json; then
+                echo "Validation failed for file '$nd' at line $i:" >&2
+                cat .tmp_line.json >&2
+                rm -f .tmp_line.json
+                exit 1
+              fi
+            done < "$nd"
+
+            rm -f .tmp_line.json || true
+          done
+
+          echo "All NDJSON entries across all files are valid."
