@@ -50,7 +50,7 @@
 
     "sharePercentage": {
       "type": "integer",
-      "description": "Percentage of rewards this representative shares with others.",
+      "description": "Percentage of rewards this representative shares with delegators.",
       "minimum": 0,
       "maximum": 100
     },
