@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://atto.cash/schemas/address.json",
+  "title": "Atto Known Address",
+  "description": "Schema for a single Atto address entry (one per NDJSON line).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "address",
+    "label",
+    "entity",
+    "tags",
+    "addedAt",
+    "description"
+  ],
+  "properties": {
+    "address": {
+      "type": "string",
+      "description": "Atto account address in URI form.",
+      "pattern": "^atto://[a-z0-9]+$"
+    },
+    "label": {
+      "type": "string",
+      "description": "Human-friendly label for this address.",
+      "minLength": 1,
+      "maxLength": 120
+    },
+    "entity": {
+      "type": "string",
+      "description": "Entity identifier this address belongs to (must match an entity from entities.ndjson).",
+      "pattern": "^[a-z0-9-]+$",
+      "minLength": 1,
+      "maxLength": 64
+    },
+    "tags": {
+      "type": "array",
+      "description": "Classification tags for this address.",
+      "items": {
+        "type": "string",
+        "enum": [
+          "EXCHANGE",
+          "SERVICE"
+        ]
+      },
+      "uniqueItems": true
+    },
+    "addedAt": {
+      "type": "string",
+      "description": "Date this address was added.",
+      "format": "date"
+    },
+    "description": {
+      "type": "string",
+      "description": "Description of this address and its purpose.",
+      "minLength": 1,
+      "maxLength": 300
+    }
+  }
+}
