@@ -64,6 +64,12 @@
       "type": "string",
       "description": "Public website for this entity.",
       "format": "uri"
+    },
+
+    "addedAt": {
+      "type": "string",
+      "description": "Date the entry was created (UTC).",
+      "format": "date"
     }
   }
 }
