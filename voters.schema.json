@@ -1,8 +1,8 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://atto.cash/schemas/representative.json",
-  "title": "Atto Representative",
-  "description": "Schema for an Atto representative",
+  "$id": "https://atto.cash/schemas/voters.json",
+  "title": "Atto Voter",
+  "description": "Schema for an Atto voter",
   "type": "object",
   "additionalProperties": false,
 
@@ -20,7 +20,7 @@
   "properties": {
     "address": {
       "type": "string",
-      "description": "Representative voting address (Atto URI).",
+      "description": "Voter address (Atto URI).",
       "pattern": "^atto://[a-z0-9]+$"
     },
 
@@ -39,18 +39,18 @@
     },
 
     "payToAddress": {
-      "description": "If null, this representative does NOT participate in staking rewards. Must never be the same as 'address'.",
+      "description": "If null, this voter does NOT participate in staking rewards. Must never be the same as 'address'.",
       "type": ["string", "null"],
       "pattern": "^atto://[a-z0-9]+$",
       "not": {
-        "description": "Disallow using the representative voting address as the payout address.",
+        "description": "Disallow using the voter address as the payout address.",
         "const": { "$data": "/address" }
       }
     },
 
     "sharePercentage": {
       "type": "integer",
-      "description": "Percentage of rewards this representative shares with delegators.",
+      "description": "Percentage of rewards this voter shares with delegators.",
       "minimum": 0,
       "maximum": 100
     },
@@ -69,7 +69,7 @@
 
     "description": {
       "type": "string",
-      "description": "Longer description of the representative.",
+      "description": "Longer description of the voter.",
       "minLength": 1,
       "maxLength": 300
     }
