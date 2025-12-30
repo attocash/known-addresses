@@ -3,4 +3,4 @@
 {"entity": "xt", "organization": "xt", "label": "XT", "description": "XT Exchange", "tags": ["VERIFIED","EXCHANGE"], "website": "https://www.xt.com", "addedAt": "2025-08-20"}
 {"entity": "cryptojar", "organization": "cryptojar", "label": "CryptoJar", "description": "CryptoJar Tip Bot", "tags": ["VERIFIED", "SERVICE"], "website": "https://cryptojar.cc", "addedAt": "2025-10-15"}
 {"entity": "waldo-lemmer", "organization": "waldo-lemmer", "label": "Waldo Lemmer", "description": "Node operator, Atto Discord server moderator", "tags": ["VERIFIED", "INDIVIDUAL"], "website": "https://waldolemmer.github.io", "addedAt": "2025-11-19"}
-{"entity": "kaydee", "organization": "kaydee", "label": "KayDee", "description": "KayDee Node operator", "tags": ["INDIVIDUAL"], "website": "https://atto.cash", "addedAt": "2025-11-19"}
+{"entity": "kaydee", "organization": "kaydee", "label": "KayDee", "description": "KayDee Node operator", "tags": ["INDIVIDUAL"], "website": "https://atto.cash", "addedAt": "2025-12-30"}
