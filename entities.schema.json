@@ -51,9 +51,9 @@
       "items": {
         "type": "string",
         "enum": [
+          "VERIFIED",
           "EXCHANGE",
           "SERVICE",
-          "WALLET",
           "INDIVIDUAL"
         ]
       },

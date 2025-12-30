@@ -9,7 +9,6 @@
     "address",
     "label",
     "entity",
-    "tags",
     "addedAt",
     "description"
   ],
@@ -31,18 +30,6 @@
       "pattern": "^[a-z0-9-]+$",
       "minLength": 1,
       "maxLength": 64
-    },
-    "tags": {
-      "type": "array",
-      "description": "Classification tags for this address.",
-      "items": {
-        "type": "string",
-        "enum": [
-          "EXCHANGE",
-          "SERVICE"
-        ]
-      },
-      "uniqueItems": true
     },
     "addedAt": {
       "type": "string",
