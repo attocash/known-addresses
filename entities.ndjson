@@ -1,6 +1,6 @@
-{"entity": "atto", "organization": "atto", "label": "Atto", "description": "Atto", "tags": [], "website": "https://atto.cash", "addedAt": "2024-11-09"}
-{"entity": "lcx", "organization": "lcx", "label": "LCX", "description": "LCX Exchange", "tags": ["EXCHANGE"], "website": "https://www.lcx.com", "addedAt": "2025-08-06"}
-{"entity": "xt", "organization": "xt", "label": "XT", "description": "XT Exchange", "tags": ["EXCHANGE"], "website": "https://www.xt.com", "addedAt": "2025-08-20"}
-{"entity": "cryptojar", "organization": "cryptojar", "label": "CryptoJar", "description": "CryptoJar Tip Bot", "tags": ["SERVICE"], "website": "https://cryptojar.cc", "addedAt": "2025-10-15"}
-{"entity": "waldo-lemmer", "organization": "waldo-lemmer", "label": "Waldo Lemmer", "description": "Node operator, Atto Discord server moderator", "tags": ["INDIVIDUAL"], "website": "https://waldolemmer.github.io", "addedAt": "2025-11-19"}
+{"entity": "atto", "organization": "atto", "label": "Atto", "description": "Atto", "tags": ["VERIFIED"], "website": "https://atto.cash", "addedAt": "2024-11-09"}
+{"entity": "lcx", "organization": "lcx", "label": "LCX", "description": "LCX Exchange", "tags": ["VERIFIED","EXCHANGE"], "website": "https://www.lcx.com", "addedAt": "2025-08-06"}
+{"entity": "xt", "organization": "xt", "label": "XT", "description": "XT Exchange", "tags": ["VERIFIED","EXCHANGE"], "website": "https://www.xt.com", "addedAt": "2025-08-20"}
+{"entity": "cryptojar", "organization": "cryptojar", "label": "CryptoJar", "description": "CryptoJar Tip Bot", "tags": ["VERIFIED", "SERVICE"], "website": "https://cryptojar.cc", "addedAt": "2025-10-15"}
+{"entity": "waldo-lemmer", "organization": "waldo-lemmer", "label": "Waldo Lemmer", "description": "Node operator, Atto Discord server moderator", "tags": ["VERIFIED", "INDIVIDUAL"], "website": "https://waldolemmer.github.io", "addedAt": "2025-11-19"}
 {"entity": "kaydee", "organization": "kaydee", "label": "KayDee", "description": "KayDee Node operator", "tags": ["INDIVIDUAL"], "website": "https://atto.cash", "addedAt": "2025-11-19"}
