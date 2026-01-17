@@ -14,6 +14,7 @@
 {"address": "atto://adwmbykpqs3mgbqogizzwm6arokkcmuxium7rbh343drwd2q5om6vj3jrfiyk", "label": "Atto Faucet", "entity": "atto", "addedAt": "2025-08-06", "description": "Faucet"}
 {"address": "atto://abgz7fjquhyi3xflfxvwmyc4w5pplgp3crjeupkyegewmzc6vah5eogxewdc2", "label": "Atto Miner", "entity": "atto", "addedAt": "2025-08-06", "description": "Folding@home Miner"}
 {"address": "atto://abzekkyvhsos74rfeibubjifbjdzy3bi7habx5o3kt4ot2vcl5uhb2rcrn7hu", "label": "Atto Reward Bot", "entity": "atto", "addedAt": "2025-08-06", "description": "Github Reward Bot"}
+{"address": "atto://aaswdsyo5pv2pigz3557r7pncks3duwvxpklr6sndcj4kdlcgxpfsowc2hsuk", "label": "Atto Staking Distributor", "entity": "atto", "addedAt": "2026-01-17", "description": "Staking"}
 {"address": "atto://acfu5fpqtxvbu3zvyimddudpgyhsbd2bzoigvj6zlsmcu2w7zug4zmtb6v2rw", "label": "LCX Hot Wallet", "entity": "lcx", "addedAt": "2025-08-06", "description": "LCX Hot Wallet"}
 {"address": "atto://ad7ptdb7tpkvyuoib5cjwjf5fjm6z4iodqvrcx4iejd5aeh6ozroq3vge3ada", "label": "XT Hot Wallet", "entity": "xt", "addedAt": "2025-08-20", "description": "XT Hot Wallet"}
 {"address": "atto://aaknct6jr7vwdsnijynqgdv7iilnkg3awl5bz7donacx3oijtmg56bprkitzk", "label": "CryptoJar Hot Wallet", "entity": "xt", "addedAt": "2025-09-15", "description": "CryptoJar Hot Wallet"}
