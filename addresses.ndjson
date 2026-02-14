@@ -17,4 +17,5 @@
 {"address": "atto://aaswdsyo5pv2pigz3557r7pncks3duwvxpklr6sndcj4kdlcgxpfsowc2hsuk", "label": "Staking", "entity": "atto", "addedAt": "2026-01-17", "description": "Staking"}
 {"address": "atto://acfu5fpqtxvbu3zvyimddudpgyhsbd2bzoigvj6zlsmcu2w7zug4zmtb6v2rw", "label": "LCX Hot Wallet", "entity": "lcx", "addedAt": "2025-08-06", "description": "LCX Hot Wallet"}
 {"address": "atto://ad7ptdb7tpkvyuoib5cjwjf5fjm6z4iodqvrcx4iejd5aeh6ozroq3vge3ada", "label": "XT Hot Wallet", "entity": "xt", "addedAt": "2025-08-20", "description": "XT Hot Wallet"}
-{"address": "atto://aaknct6jr7vwdsnijynqgdv7iilnkg3awl5bz7donacx3oijtmg56bprkitzk", "label": "CryptoJar Hot Wallet", "entity": "cryptojar", "addedAt": "2025-09-15", "description": "CryptoJar Hot Wallet"}
+{"address": "atto://aaknct6jr7vwdsnijynqgdv7iilnkg3awl5bz7donacx3oijtmg56bprkitzk", "label": "CryptoJar Legacy Hot Wallet", "entity": "cryptojar", "addedAt": "2025-09-15", "description": "CryptoJar Hot Wallet"}
+{"address": "atto://aaie5u6iludaqxo2xmjdmnkppdkbj65quhub7cfnrpqdgrcfuhsdp7a3djddo", "label": "CryptoJar Hot Wallet", "entity": "cryptojar", "addedAt": "2026-02-14", "description": "CryptoJar Hot Wallet"}
